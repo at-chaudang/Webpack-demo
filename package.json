@@ -1,0 +1,41 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "Demo webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/at-chaudang/Webpack-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/at-chaudang/Webpack-demo/issues"
+  },
+  "homepage": "https://github.com/at-chaudang/Webpack-demo#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.6.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "clean-webpack-plugin": "^3.0.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
